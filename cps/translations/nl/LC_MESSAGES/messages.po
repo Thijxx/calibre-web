@@ -90,25 +90,25 @@ msgstr "De locatie vam het toegangslog is onjuist, voer een geldige locatie in"
 
 #: cps/admin.py:581
 msgid "Please Enter a LDAP Provider, Port, DN and User Object Identifier"
-msgstr ""
+msgstr "Voer een LDAP Provider, Port, DN and User Object Identifier in"
 
 #: cps/admin.py:594
 #, python-format
 msgid "LDAP Group Object Filter Needs to Have One \"%s\" Format Identifier"
-msgstr ""
+msgstr "LDAP Group Object Filter heeft een \"%s\" Format Identifier nodig"
 
 #: cps/admin.py:597
 msgid "LDAP Group Object Filter Has Unmatched Parenthesis"
-msgstr ""
+msgstr "LDAP Group Object Filter heeft niet overeenkomende haakjes"
 
 #: cps/admin.py:601
 #, python-format
 msgid "LDAP User Object Filter needs to Have One \"%s\" Format Identifier"
-msgstr ""
+msgstr "LDAP User Object Filter heeft een \"%s\" Format Identifier nodig"
 
 #: cps/admin.py:604
 msgid "LDAP User Object Filter Has Unmatched Parenthesis"
-msgstr ""
+msgstr "LDAP User Object Filter heeft niet overeenkomende haakjes"
 
 #: cps/admin.py:608
 msgid "LDAP Certificate Location is not Valid, Please Enter Correct Path"
@@ -126,7 +126,7 @@ msgstr "SSL-certificaatlocatie is niet geldig, voer een geldige locatie in"
 #: cps/shelf.py:100 cps/shelf.py:161 cps/shelf.py:202 cps/shelf.py:260
 #: cps/shelf.py:309 cps/shelf.py:338 cps/shelf.py:368 cps/shelf.py:392
 msgid "Settings DB is not Writeable"
-msgstr ""
+msgstr "Instellingen database is niet schrijfbaar"
 
 #: cps/admin.py:712
 msgid "DB Location is not Valid, Please Enter Correct Path"
@@ -134,7 +134,7 @@ msgstr "Database niet gevonden, voer de juiste locatie in"
 
 #: cps/admin.py:714
 msgid "DB is not Writeable"
-msgstr ""
+msgstr "Database is niet schrijfbaar"
 
 #: cps/admin.py:747
 msgid "Basic Configuration"
@@ -298,7 +298,7 @@ msgstr "niet geconfigureerd"
 
 #: cps/converter.py:34
 msgid "Execution permissions missing"
-msgstr ""
+msgstr "Executierechten ontbreken"
 
 #: cps/editbooks.py:245
 msgid "Book Format Successfully Deleted"
@@ -344,7 +344,7 @@ msgstr "Kan %(file)s niet opslaan."
 #: cps/editbooks.py:516 cps/editbooks.py:887
 #, python-format
 msgid "Database error: %(error)s."
-msgstr ""
+msgstr "Database fout: %(error)s."
 
 #: cps/editbooks.py:520
 #, python-format
@@ -353,7 +353,7 @@ msgstr "Bestandsformaat %(ext)s toegevoegd aan %(book)s"
 
 #: cps/editbooks.py:636
 msgid "Identifiers are not Case Sensitive, Overwriting Old Identifier"
-msgstr ""
+msgstr "Identificaties zijn niet hoofdlettergevoelig, oude identificatie aan het overschrijven"
 
 #: cps/editbooks.py:673
 msgid "Metadata successfully updated"
@@ -473,7 +473,7 @@ msgstr "Het opgevraagde bestand kan niet worden uitgelezen. Ben je hiertoe gemac
 #: cps/helper.py:325
 #, python-format
 msgid "Deleting bookfolder for book %(id)s failed, path has subfolders: %(path)s"
-msgstr ""
+msgstr "Kan boekmap niet verwijderen voor %(id)s, het pad heeft submappen: %(path)s"
 
 #: cps/helper.py:331
 #, python-format
@@ -483,7 +483,7 @@ msgstr "Verwijderen van boek %(id)s mislukt: %(message)s"
 #: cps/helper.py:341
 #, python-format
 msgid "Deleting book %(id)s, book path not valid: %(path)s"
-msgstr ""
+msgstr "Tijdens het verwijderen van boek %(id)s, boek pad niet valide: %(path)s"
 
 #: cps/helper.py:376
 #, python-format
@@ -512,11 +512,11 @@ msgstr "Boeken locatie '%(path)s' niet aangetroffen op Google Drive"
 
 #: cps/helper.py:576
 msgid "Error Downloading Cover"
-msgstr ""
+msgstr "Fout bij downloaden van omslag"
 
 #: cps/helper.py:579
 msgid "Cover Format Error"
-msgstr ""
+msgstr "Omslag format fout"
 
 #: cps/helper.py:594
 msgid "Failed to create path for cover"
@@ -634,7 +634,7 @@ msgstr "Ontkoppelen van %(oauth)s mislukt"
 #: cps/oauth_bb.py:290
 #, python-format
 msgid "Not Linked to %(oauth)s"
-msgstr ""
+msgstr "Niet verbonden met %(oauth)s"
 
 #: cps/oauth_bb.py:318
 msgid "GitHub Oauth error, please retry later."
@@ -899,11 +899,11 @@ msgstr "Fout: No user returned in response of LDAP server"
 
 #: cps/web.py:372
 msgid "Failed to Create at Least One LDAP User"
-msgstr ""
+msgstr "Fout bij het maken van ten minste 1 LDAP gebruiker"
 
 #: cps/web.py:375
 msgid "At Least One LDAP User Not Found in Database"
-msgstr ""
+msgstr "Ten minste 1 LDAP gebruiker niet gevonden in de database"
 
 #: cps/web.py:377
 msgid "User Successfully Imported"
@@ -1007,7 +1007,7 @@ msgstr "zoeken"
 #: cps/web.py:1211
 #, python-format
 msgid "Custom Column No.%(column)d is not existing in calibre database"
-msgstr ""
+msgstr "Custom kolom Nr.%(column)d bestaat niet in de calibre database"
 
 #: cps/web.py:1305
 #, python-format
@@ -1051,7 +1051,7 @@ msgstr "Kan de LDAP authenticatie niet activeren"
 #: cps/web.py:1405
 #, python-format
 msgid "Fallback Login as: '%(nickname)s', LDAP Server not reachable, or user not known"
-msgstr ""
+msgstr "Terugval login als '%(nickname)s', LDAP server niet bereikbaar, of gebruiker niet bekend"
 
 #: cps/web.py:1411
 #, python-format
@@ -1108,7 +1108,7 @@ msgstr "Lees een boek"
 #: cps/worker.py:314
 #, python-format
 msgid "Calibre ebook-convert %(tool)s not found"
-msgstr ""
+msgstr "Calibre ebook-convert %(tool)s niet gevonden"
 
 #: cps/worker.py:374
 #, python-format
@@ -1118,12 +1118,12 @@ msgstr "E-boek-conversie mislukt: %(error)s"
 #: cps/worker.py:407
 #, python-format
 msgid "Kepubify-converter failed: %(error)s"
-msgstr ""
+msgstr "Kepubify-converter gefaald: %(error)s"
 
 #: cps/worker.py:431
 #, python-format
 msgid "Converted file not found or more than one file in folder %(folder)s"
-msgstr ""
+msgstr "Geconverteerd bestand niet gevonden of meer dan 1 bestand in map %(folder)s"
 
 #: cps/templates/admin.html:9
 msgid "Users"
@@ -1183,7 +1183,7 @@ msgstr "Verwijderen"
 
 #: cps/templates/admin.html:23
 msgid "Public Shelf"
-msgstr ""
+msgstr "Publieke Plank"
 
 #: cps/templates/admin.html:44
 msgid "Add New User"
@@ -1235,7 +1235,7 @@ msgstr "Poort"
 
 #: cps/templates/admin.html:93
 msgid "External Port"
-msgstr ""
+msgstr "Externe Poort"
 
 #: cps/templates/admin.html:100 cps/templates/config_view_edit.html:27
 msgid "Books per Page"
@@ -1505,11 +1505,11 @@ msgstr "en van de harde schijf"
 
 #: cps/templates/book_edit.html:214
 msgid "Important Kobo Note: deleted books will remain on any paired Kobo device."
-msgstr ""
+msgstr "Belangrijke Kobo Notitie: verwijderde boeken blijven op het gekoppelde apparaat staan."
 
 #: cps/templates/book_edit.html:215
 msgid "Books must first be archived and the device synced before a book can safely be deleted."
-msgstr ""
+msgstr "Boeken moeten eerst gearchiveerd en het apparaat gesynchroniseerd worden alvorens een boek veilig verwijderd kan worden."
 
 #: cps/templates/book_edit.html:237
 msgid "Keyword"
@@ -1639,7 +1639,7 @@ msgstr "Uploaden inschakelen"
 
 #: cps/templates/config_edit.html:169
 msgid "Allowed Upload Fileformats"
-msgstr ""
+msgstr "Toegestane Upload formats"
 
 #: cps/templates/config_edit.html:175
 msgid "Enable Anonymous Browsing"
@@ -1651,7 +1651,7 @@ msgstr "Openbare registratie inschakelen"
 
 #: cps/templates/config_edit.html:184
 msgid "Use E-Mail as Username"
-msgstr ""
+msgstr "Gebruik e-mail als gebruikersnaam"
 
 #: cps/templates/config_edit.html:189
 msgid "Enable Magic Link Remote Login"
@@ -1667,7 +1667,7 @@ msgstr "Proxy onbekende verzoeken naar Kobo winkel"
 
 #: cps/templates/config_edit.html:202
 msgid "Server External Port (for port forwarded API calls)"
-msgstr ""
+msgstr "Server externe poort (voor port forwarded API verzoeken"
 
 #: cps/templates/config_edit.html:210
 msgid "Use Goodreads"
@@ -1776,11 +1776,11 @@ msgstr "LDAP Server is OpenLDAP?"
 
 #: cps/templates/config_edit.html:304
 msgid "Following Settings are Needed For User Import"
-msgstr ""
+msgstr "De volgende instellingen zijn nodig voor gebruikers import"
 
 #: cps/templates/config_edit.html:306
 msgid "LDAP Group Object Filter"
-msgstr ""
+msgstr "LDAP Group Object Filter"
 
 #: cps/templates/config_edit.html:310
 msgid "LDAP Group Name"
@@ -1811,15 +1811,15 @@ msgstr "Externe programma's"
 
 #: cps/templates/config_edit.html:352
 msgid "Path to Calibre E-Book Converter"
-msgstr ""
+msgstr "Pad naar Calibre E-Book Converter"
 
 #: cps/templates/config_edit.html:360
 msgid "Calibre E-Book Converter Settings"
-msgstr ""
+msgstr "Calibre E-Book Converter instellingen"
 
 #: cps/templates/config_edit.html:363
 msgid "Path to Kepubify E-Book Converter"
-msgstr ""
+msgstr "Pad naar Kepubify E-Book Converter"
 
 #: cps/templates/config_edit.html:371
 msgid "Location of Unrar binary"
@@ -2002,7 +2002,7 @@ msgstr "SMTP-wachtwoord"
 
 #: cps/templates/email_edit.html:38
 msgid "Attachment Size Limit"
-msgstr ""
+msgstr "Bijlage Grootte Limiet"
 
 #: cps/templates/email_edit.html:46
 msgid "Save and Send Test E-mail"
